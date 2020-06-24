@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* ---------------------- Header -------------------------- */
+
+.navbar-brand {
+    width: 100px;
+}
+
+.header-nav__li {
+    width: 160px;
+    cursor: pointer;
+}
+
+.header-nav__li a {
+    color: #fff;
+}
+
+.header-nav__li a:hover {
+    text-decoration: none;
+    color: #fff;
+} 
+
+/* ---------------------- Index ------------------ */
+
+.task-wrapper {
+    display: flex;
+}
+
+.out-name, .out-email, .out-content {
+
+} 
+
+/* ---------------------- Form ------------------- */
+
+.form-submit-btn {
+    width: 80px;
+}
+
+/* ------------------- Table -------------------- */
+
+table {
+    table-layout: fixed;
+    width:100%
+}
+
+td {
+    word-wrap:break-word;
+}
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+    position: absolute;
+    margin-top: 40px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* -------------------- Chips ------------------- */
+
+.chieps-field {
+    position: absolute;	
+    left: 0;
+    width: 200px;
+    z-index: 9999;
+}
+
+.chips {
+    padding: 5px 10px;
+    width: 200px;
+	background: #87CEFA;
+	position: relative;
+	margin: 10px 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    text-align: center;
+    opacity: .7;
+}
+
+.success {
+    padding: 20px 0;
+    background: #1E90FF;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+.danger {
+    padding: 20px 0;
+    background: #FF0000;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+.done:before {
+    content: "Выполненно";
+}
+
+.not-done::before {
+    content: "В процессе";
+}
